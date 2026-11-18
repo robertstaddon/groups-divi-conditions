@@ -2,7 +2,7 @@
 
 A Groups membership condition for the Divi 5 Visual Builder.
 
-Open any module, go to **Advanced → Conditions**, and add **Groups Membership**. The module is shown or hidden from the current visitor based on their [Groups](https://wordpress.org/plugins/groups/) membership. Divi evaluates the condition while it renders the module. This plugin does not wrap modules and does not read Divi 4 shortcodes.
+Open any module, go to **Advanced → Conditions**, and add **Groups Membership**. The module is shown or hidden from the current visitor based on their [Groups](https://wordpress.org/plugins/groups/) membership. Divi evaluates the condition while it renders a native module. Shortcode modules have no render callback, so this plugin hides that block when the condition fails. It does not wrap modules and does not read Divi 4 shortcodes.
 
 ## Requirements
 

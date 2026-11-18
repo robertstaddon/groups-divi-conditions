@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Groups for Divi Conditions
  * Description: Adds a Groups Membership display condition to Divi 5.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Abundant Designs
  * Author URI: https://www.abundantdesigns.com
  * Update URI: https://manage.abundantdesigns.com/wp-json/update-server/groups-divi-conditions/
@@ -21,7 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'GROUPS_DIVI_CONDITIONS_VERSION', '1.0.0' );
+define( 'GROUPS_DIVI_CONDITIONS_VERSION', '1.0.1' );
 define( 'GROUPS_DIVI_CONDITIONS_FILE', __FILE__ );
 define( 'GROUPS_DIVI_CONDITIONS_DIR', plugin_dir_path( __FILE__ ) );
 
